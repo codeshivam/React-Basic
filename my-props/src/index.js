@@ -13,11 +13,11 @@ ReactDOM.render(
     <App name = "App" id = "4">
       <p>Small child pragrapf</p>
     </App>
-    <Student name = 'Shivam'/>
-    <Student name = 'Rahul'/>
-    <Student name = 'Ganesh'/>
-    <Student name = 'Givya'/>
-    <Student name = 'Syana'/>
+    <Student name = 'Shivam' age = '21'/>
+    <Student name = 'Rahul' age = '23'/>
+    <Student name = 'Ganesh ' age = '21'/>
+    <Student name = 'Givya' age = '16'/>
+    <Student name = 'Syana' age = '15'/>
   </React.StrictMode>,
   document.getElementById('root')
 );
