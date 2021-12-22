@@ -1,6 +1,7 @@
 import './App.css';
 import React, {Component} from 'react';
 import { Employee } from './Employee';
+import { Things } from './Thing';
 
 export class App extends Component{
   state ={
@@ -16,7 +17,7 @@ export class App extends Component{
         {this.state.roll}
         <h2>Your batch is {this.state.batch}</h2>
         </h1>
-
+        <Things make = "thin" />
         <Employee />
       </div>
     );
