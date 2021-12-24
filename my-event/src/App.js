@@ -8,7 +8,7 @@ function App() {
 
       <h1>This is react event</h1>
       <Student />
-      <ThisBinding />
+      <ThisBinding id = "20" />
     </div>
   );
 }
