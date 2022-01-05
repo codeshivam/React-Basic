@@ -1,4 +1,5 @@
 import './App.css';
+import { Employee } from './Employee';
 import { Student } from './Student';
 import { ThisBinding } from './ThisBinding';
 
@@ -9,6 +10,7 @@ function App() {
       <h1>This is react event</h1>
       <Student />
       <ThisBinding id = "20" />
+      <Employee />
     </div>
   );
 }
