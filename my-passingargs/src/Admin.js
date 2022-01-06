@@ -11,6 +11,14 @@ export class Admin extends React.Component{
         this.handleSubmit = this.handleSubmit.bind(this);
     }
 
+    componentDidMount(){
+        console.log("Mounted");
+    }
+
+    componentWillUnmount(){
+        console.log("unmounted");
+    }
+
     handleSubmit = ()=>{
         this.setState(prevState => ({
             isToggleOn: !prevState.isToggleOn
